@@ -1,0 +1,17 @@
+{
+    "name": "presentation-<%= shortName %>",
+    "version": "0.0.0",
+    "dependencies": {
+<% if (syntax) { %>        "prism": "gh-pages",
+<% } %>        "bespoke.js": "~1.0.0",
+<% if (useTheme) { %>        "bespoke-theme-cube": "~2.0.1",
+<% } %><% if (backdrop) { %>        "bespoke-backdrop": "~1.0.0",
+<% } %><% if (bullets) { %>        "bespoke-bullets": "~1.0.0",
+<% } %><% if (scale) { %>        "bespoke-scale": "~1.0.1",
+<% } %><% if (hash) { %>        "bespoke-hash": "~1.0.2",
+<% } %><% if (progress) { %>        "bespoke-progress": "~1.0.0",
+<% } %><% if (forms) { %>        "bespoke-forms": "~1.0.0",
+<% } %>        "bespoke-keys": "~1.0.0",
+        "bespoke-touch": "~1.0.0"
+    }
+}
