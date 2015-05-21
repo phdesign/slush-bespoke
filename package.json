@@ -1,11 +1,11 @@
 {
     "name": "slush-bespoke",
-    "description": "Generator for a bespoke presentation using bower dependencies",
+    "description": "A slush generator for a bespoke presentation using bower dependencies",
     "version": "0.1.0",
     "homepage": "https://github.com/phdesign/slush-bespoke",
     "author": {
         "name": "Paul Heasley",
-        "email": "paul.heasley@gmail.com"
+        "email": "paul@phdesign.com.au"
     },
     "repository": {
         "type": "git",
@@ -38,6 +38,8 @@
         "iniparser": "^1.0.5"
     },
     "keywords": [
-        "slushgenerator"
+        "slushgenerator",
+        "bespoke",
+        "bespokejs"
     ]
 }
